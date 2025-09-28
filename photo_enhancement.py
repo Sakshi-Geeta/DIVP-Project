@@ -1,3 +1,8 @@
+#Group project by:
+#Sakshi Geeta (220130111115)
+#Pankti Padariya (230133111024)
+#Oza Tanu Saleengram (220133111020)
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,3 +55,4 @@ plt.show()
 
 # Save output
 cv2.imwrite("enhanced_output.jpg", cv2.cvtColor(sharpened, cv2.COLOR_RGB2BGR))
+
